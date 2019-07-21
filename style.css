@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald"; sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #4a4a4f;
+    text-align: centre;
+    margin: 0;
+    align: 0;
+}
+
+
+.card {
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+}
+
+
+img{
+    width: 100%;
+} 
+
