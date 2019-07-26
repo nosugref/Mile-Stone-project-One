@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Fascinate&display=swap:100,200,300,400,500,600,700');
+
+
+.body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #4a4a4f;
+    text-align: centre;
+    margin: 0;
+    align: 0;
+
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 2.5%;
+}
+
+.card {
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+}
+
+.img {
+    width: 100%;
+}
+
+.footer {
+    clear: left;
+}
