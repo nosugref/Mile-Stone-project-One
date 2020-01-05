@@ -1,19 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Fascinate&display=swap:100,200,300,400,500,600,700');
-
-
-.body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+.jumbotron {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
 }
 
 nav ul {
     list-style: none;
     background-color: #4a4a4f;
-    text-align: centre;
+    opacity: 4;
+    text-align: center;
     margin: 0;
-    align: 0;
-
 }
 
 nav li {
@@ -24,9 +19,13 @@ nav li {
     margin-left: 2.5%;
 }
 
+
+#myBtn:hover {
+  background-color: #555; 
+}
 .card {
     float: left;
-    width: 20%;
+    width: 20px;
     margin-left: 10%;
 }
 
@@ -37,3 +36,7 @@ nav li {
 .footer {
     clear: left;
 }
+
+ 
+ 
+ 

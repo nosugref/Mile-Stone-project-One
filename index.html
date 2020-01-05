@@ -8,12 +8,22 @@
     <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/getting-started/introduction/" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
     <title>Nails by Lisa</title>
 
 </head>
 
+
 <body>
+    
+    <style>
+    body{
+        background-image: url(https://storage.needpix.com/rsynced_images/art-deco-building-archtecture.jpg);
+        background-size: cover;
+            }
+    div {filter; alpha (opacity=10)):}
+    
+</style>
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -21,24 +31,22 @@
             <p class="lead">Beautiful nails from the comfort of your home</p>
             <h3>Autumn colours now in!<span class="badge badge-secondary">New</span></h3>
 
-
-
         </div>
     </div>
 
 
 
 
-    <!-- Need 3 jump to buttons here -->
+   
     <nav>
         <ul>
-            <li><a href="#next section"><div id="next">Services</a></li>
-            <li><a href="#next section">Prices</a></li>
-            <li><a href="#next section">Gallery</a></li>
+            <li><a href="#sectionId1">Services</a></li>
+            <li><a href="#sectionId2">Prices</a></li>
+            <li><a href="#sectionId3">Gallery</a></li>
         </ul>
     </nav>
 
-   
+   <section id="sectionId1">
     <div class="wrapper">
 
         <h2>Services</h2>
@@ -48,10 +56,12 @@
         <p>Girls Lunches</p>
 
 
-        <!-- Need a back to top button here -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     </div>
+    </section>
 
+<section id="sectionId2">
     <div class="wrapper">
         <h2>Prices</h2>
         <p>Using OPI Products</p>
@@ -67,49 +77,53 @@
 
         <button type="button" class="btn btn-info">Info</button>
 
-        <!-- Need a back to top button here -->
-
+      
     </div>
+</section>
 
-
+<section id="sectionId3">
     <h2>Gallery</h2>
     <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Galaxies_nail_art.jpg"></img>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Galaxies_nail_art.jpg"style="width:50px; height:50px;">
 
     </div>
     <div class="card">
-        <img src="https://live.staticflickr.com/3599/4559982239_0ac694451c_b.jpg"></img>
+        <img src="https://live.staticflickr.com/3599/4559982239_0ac694451c_b.jpg" style="width:50px; height:50px;">
 
     </div>
     <div class="card">
-        <img src="https://live.staticflickr.com/5757/22122064189_f04dba8fa5_b.jpg"></img>
+        <img src="https://live.staticflickr.com/5757/22122064189_f04dba8fa5_b.jpg" style="width:50px; height:50px;">
 
     </div>
     <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Flower_nail_art.jpg"></img>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Flower_nail_art.jpg"style="width:50px; height:50px;">
 
     </div>
     <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Matte_black_and_white_polkadot_nails_%2816476158115%29.jpg"></img>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Matte_black_and_white_polkadot_nails_%2816476158115%29.jpg"style="width:50px; height:50px;">
 
     </div>
     <div class="card">
-        <img src="https://live.staticflickr.com/5506/11401521313_165dc94b32_b.jpg"></img>
+       
+        <img src="https://live.staticflickr.com/5506/11401521313_165dc94b32_b.jpg" style="width:50px; height:50px;">
 
     </div>
+</section>
 
-
-    <!-- Need a back to top button here -->
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 
     <div class="container">
-        <h2>Contact</h2>
-        <p>To book an appointment please call Lisa on 1234567890</p>
-
-
+        
+        <br><h2>Contact</h2>
+        
         <form>
             <div class="form-group">
-                <p>To book an appointment please call Lisa on 1234567890</p>
+                <p>To book an appointment please call Lisa on 1234567890 <br>
+                
+                Or
+                </p>
                 <label for="exampleInputEmail1">Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@example.com">
                 <!-- Need a back to top button here -->
@@ -134,7 +148,8 @@
 
 
         <div class="container">
-            Leave me a 5* review on Facebook to recieve 5% discount ADD FACEBOOK LINK HERE
+            Leave me a 5* review on Facebook to recieve 5% discount 
+            <a href:<a href="mailto:">FACEBOOK LINK HRE</a>
         </div>
     </div>
     </div>
